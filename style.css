@@ -1,94 +1,17 @@
-/* * {    box-sizing: border-box;} */
 
+/*general body styling */    
  body {
     background: #777;
     width: 960px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin: 2% auto;
-    
-
-
  }
 
-#header {
-    width: 100%;
-    height: 50px; 
-    background: lightgray;
-    padding-top: 60px;
-    text-align: center;
-    margin-bottom: 10px;   
-    color: #777;
-}
-
-#nav {
-    width: 100%;
-    height: 50px; 
-    background: lightgray;
-    padding-top: 60px;
-    text-align: center;
-    margin-bottom: 10px;
-    color: #777;
-
-}
-
-#mainContent {
-    background-color: #777;
-    text-align: center;
-    
-    
-}
 
 
-#footer {
-    width: 100%;
-    height: 50px; 
-    background: lightgray;
-    padding-top: 30px;
-    text-align: center;
-    margin-bottom: 10px;
-    color: #777;
-}
-
-#section {
-    background-color: lightgray;
-    width: 500px;
-    height: 200px;
-    float: left;
-    margin-bottom: 10px;
-    margin-right: 20px;
-    padding-top: 40px;
-    color: #777;
-    
-    
-    
-        
-}
-
-#aside {
-    background-color: lightgray;
-    width: 440px;
-    height: 200px;
-    float: left;
-    padding-top: 40px;
-    color: #777;
-}
-
-
-#article {
-width: 400px;
-height: 140px;
-background-color: #777;
-margin-left: 50px;
-padding-top: 25px;
-
-
-
-margin-bottom: 10px;
-color: lightgray;
-}
-
-#h {
+ /* class for shared h1,h2,3, & P box styles */
+ .hP {
     background-color: lightgray;
     width: 350px;
     height: 30px;
@@ -97,18 +20,73 @@ color: lightgray;
     margin-bottom: 10px;
     padding-top: 10px;
     color: #777;
-}
+ }
 
-#p {
+
+
+ /* Class for shared section & aside box styles. */
+.sectionAside {
+    
     background-color: lightgray;
-    width: 350px;
-    height: 30px;
-    margin-left: 25px;
-    margin-bottom: 10px;
-    padding-top: 10px;
+    height: 200px;
+    float: left;
+    padding-top: 40px;
     color: #777;
+    text-align: center;
 }
 
+
+
+/*Class for shared header, nav, and footer box styles.*/
+ .headerNavFoot {
+    width: 100%;
+    height: 50px; 
+    background: lightgray;
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 10px;   
+    color: #777;
+ }
+
+
+
+/*ID created for box that will contain the section & aside boxes aka container */
+#mainContent {
+    background-color: #777;
+    text-align: center;
+}
+
+
+
+/* ID created for the section box, for items that could not be shared in the class created shareAside */
+#section {
+   
+    width: 500px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+
+
+/* ID created for the aside box, for items that could not be shared in the class created shareAside  */
+#aside {
+    width: 440px;
+}
+
+
+/*ID created for article */
+#article {
+width: 400px;
+height: 140px;
+background-color: #777;
+margin-left: 50px;
+padding-top: 25px;
+margin-bottom: 10px;
+color: lightgray;
+}
+
+
+/* this is the clear fix code*/
 .clearfix { display: inline-block; }
 
 
