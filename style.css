@@ -1,5 +1,74 @@
+ /* Beginning of Newer CSS stylesheet*/
+body {
+    
+    
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 2% auto;
+    text-align: center;
+  
+ }
 
-/*general body styling */    
+ .color1 {
+    background-color: #777;
+    color:#ebebeb;
+ }
+
+ .color2 {
+    color: #777;
+    background-color:#ebebeb;
+ }
+
+
+ .box-1 {
+     background-color:#ebebeb;
+     color:#777;
+ }
+
+ section {
+   float: left;
+   width: 500px;
+   
+    
+ }
+
+ aside {
+   float: right;
+   width: 440px;
+
+ }
+
+ .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;}
+
+    article{
+        margin: 10px;
+        padding: 10px;
+        
+    }
+
+section,aside {
+    height: 300px;
+    margin-bottom: 15px;    
+}    
+
+header, nav, footer {
+
+    padding: 5px;
+    margin-bottom: 15px;
+
+}
+
+p {
+    padding: 10px;
+}
+
+/*End of newer CSS stylesheet */
+
+/* Beginning of Original CSS stylesheet before changes     
  body {
     background: #777;
     width: 960px;
@@ -7,10 +76,10 @@
     font-size: 18px;
     margin: 2% auto;
  }
+*/
 
 
-
- /* class for shared h1,h2,3, & P box styles */
+ /* class for shared h1,h2,3, & P box styles
  .hP {
     background-color: lightgray;
     width: 350px;
@@ -22,9 +91,10 @@
     color: #777;
  }
 
+*/
 
 
- /* Class for shared section & aside box styles. */
+ /* Class for shared section & aside box styles.
 .sectionAside {
     
     background-color: lightgray;
@@ -35,9 +105,9 @@
     text-align: center;
 }
 
+*/
 
-
-/*Class for shared header, nav, and footer box styles.*/
+/*Class for shared header, nav, and footer box styles
  .headerNavFoot {
     width: 100%;
     height: 50px; 
@@ -48,17 +118,17 @@
     color: #777;
  }
 
+ */
 
-
-/*ID created for box that will contain the section & aside boxes aka container */
+/*ID created for box that will contain the section & aside boxes aka container
 #mainContent {
     background-color: #777;
     text-align: center;
 }
 
+*/
 
-
-/* ID created for the section box, for items that could not be shared in the class created shareAside */
+/* ID created for the section box, for items that could not be shared in the class created shareAside
 #section {
    
     width: 500px;
@@ -66,15 +136,15 @@
     margin-right: 20px;
 }
 
+*/
 
-
-/* ID created for the aside box, for items that could not be shared in the class created shareAside  */
+/* ID created for the aside box, for items that could not be shared in the class created shareAside
 #aside {
     width: 440px;
 }
+*/
 
-
-/*ID created for article */
+/*ID created for article
 #article {
 width: 400px;
 height: 140px;
@@ -85,9 +155,12 @@ margin-bottom: 10px;
 color: lightgray;
 }
 
-
-/* this is the clear fix code*/
-.clearfix { display: inline-block; }
-
-
+*/
+/* 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both; 
+  }
+ End of Original CSS stylesheet */
 
